@@ -1,0 +1,18 @@
+# Path to a cache directory Used to speed up the split over time by reusing git's objects
+cache_url: "/cache/gitsplit"
+
+# List of splits.
+splits:
+  - prefix: "lib/lib-one"
+    target: "https://${GH_TOKEN}@github.com/tarekdj/lib-one.git"
+  - prefix: "lib/repB"
+    target:
+      - "https://${GH_TOKEN}@github.com/tarekdj/lib-two.git"
+
+# List of references to split (defined as regexp)
+origins:
+  - ^master$
+  - ^main$
+  - ^develop$
+  - ^feature/
+  - ^v\d+\.\d+\.\d+$
