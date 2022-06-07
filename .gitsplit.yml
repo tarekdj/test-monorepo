@@ -1,5 +1,5 @@
 # Path to a cache directory Used to speed up the split over time by reusing git's objects
-#cache_url: "/cache/gitsplit"
+cache_url: "cache_url: "https://${GH_TOKEN}@github.com/tarekdj/test-monorepo.git"
 
 project_url: /home/runner/work/tarekdj/test-monorepo
 
