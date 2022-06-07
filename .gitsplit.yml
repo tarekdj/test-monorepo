@@ -7,9 +7,9 @@ project_url: /home/runner/work/tarekdj/test-monorepo
 splits:
   - prefix: "lib/lib-one"
     target: "https://${GH_TOKEN}@github.com/tarekdj/lib-one.git"
-  - prefix: "lib/repB"
-    target:
-      - "https://${GH_TOKEN}@github.com/tarekdj/lib-two.git"
+#   - prefix: "lib/lib-two"
+#     target:
+#       - "https://${GH_TOKEN}@github.com/tarekdj/lib-two.git"
 
 # List of references to split (defined as regexp)
 origins:
