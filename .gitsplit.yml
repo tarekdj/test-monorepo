@@ -1,7 +1,7 @@
 # Path to a cache directory Used to speed up the split over time by reusing git's objects
 cache_url: "cache/gitsplit/"
 
-project_url: /home/runner/work/tarekdj/test-monorepo
+# project_url: /home/runner/work/tarekdj/test-monorepo
 
 # List of splits.
 splits:
