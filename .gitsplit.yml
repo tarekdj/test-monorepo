@@ -7,9 +7,9 @@ cache_url: "cache/gitsplit/"
 splits:
   - prefix: "lib/lib-one"
     target: "https://${GH_TOKEN}@github.com/tarekdj/test-monorepo-lib-one.git"
-#   - prefix: "lib/lib-two"
-#     target:
-#       - "https://${GH_TOKEN}@github.com/tarekdj/lib-two.git"
+  - prefix: "lib/lib-two"
+    target:
+      - "https://${GH_TOKEN}@github.com/tarekdj/test-monorepo-lib-two.git"
 
 # List of references to split (defined as regexp)
 origins:
