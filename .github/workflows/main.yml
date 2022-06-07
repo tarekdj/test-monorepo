@@ -13,8 +13,8 @@ jobs:
       - name: checkout
         run: git clone https://github.com/tarekdj/test-monorepo /home/runner/work/tarekdj/test-monorepo && cd /home/runner/work/tarekdj/test-monorepo
       
-      - name: prepare gitsplit
-        run: cp /home/runner/work/tarekdj/test-monorepo/.gitsplit.yml /home/runner/work/tarekdj/test-monorepo/.gitsplit.yml
+#       - name: prepare gitsplit
+#         run: cp /home/runner/work/tarekdj/test-monorepo/.gitsplit.yml /home/runner/work/tarekdj/test-monorepo/.gitsplit.yml
       
       - name: gitsplit
         run: docker run --rm -t -e GH_TOKEN -v /home/runner/work/tarekdj/test-monorepo:/srv jderusse/gitsplit gitsplit
