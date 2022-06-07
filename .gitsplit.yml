@@ -6,7 +6,7 @@ cache_url: "cache/gitsplit/"
 # List of splits.
 splits:
   - prefix: "lib/lib-one"
-    target: "https://${GH_TOKEN}@github.com/tarekdj/lib-one.git"
+    target: "https://${GH_TOKEN}@github.com/tarekdj/test-monorepo-lib-one.git"
 #   - prefix: "lib/lib-two"
 #     target:
 #       - "https://${GH_TOKEN}@github.com/tarekdj/lib-two.git"
