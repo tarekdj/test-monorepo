@@ -17,7 +17,7 @@ jobs:
 #         run: cp /home/runner/work/tarekdj/test-monorepo/.gitsplit.yml /home/runner/work/tarekdj/test-monorepo/.gitsplit.yml
       
       - name: gitsplit
-        run: docker run --rm -t -e GH_TOKEN -v /home/runner/work/tarekdj/test-monorepo:/srv jderusse/gitsplit gitsplit
+        run: docker run --rm -t -e GH_TOKEN -v /cache/gitsplit:/cache/gitsplit -v /home/runner/work/tarekdj/test-monorepo:/srv jderusse/gitsplit gitsplit
         env:
           GH_TOKEN: ${{ secrets.PRIVATE_TOKEN }}
       
